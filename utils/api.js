@@ -1,5 +1,5 @@
 'use strict';
-var HOST_URI = 'https://www.v2ex.com/api/';
+var HOST_URI = 'http://localhost/minproj/datasource/duanzi/';
 
 // 获取节点
 // 所有的节点

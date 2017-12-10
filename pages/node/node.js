@@ -28,6 +28,11 @@ Page({
     })
   },
   onLoad: function () {
-    this.fetchData();
+    // this.fetchData();
+    let nodes = require("../../datasource/all.js");
+    this.setData({
+      hidden: true,
+      nodes: nodes
+    })
   }
 })

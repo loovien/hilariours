@@ -43,6 +43,11 @@ Page({
     })
   },
   onLoad: function () {
-    this.fetchData();
+    // this.fetchData();
+    let latest = require("../../datasource/latest.js");
+    this.setData({
+      hidden: true,
+      latest: latest
+    })
   }
 })

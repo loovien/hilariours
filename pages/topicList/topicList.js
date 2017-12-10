@@ -38,6 +38,11 @@ Page({
     })
   },
   onLoad: function (options) {
-    this.fetchData(options.id);
+    // this.fetchData(options.id);
+    let topics = require("../../datasource/topicinfo.js");
+    this.setData({
+      hidden: true,
+      topics: topics
+    })
   }
 })

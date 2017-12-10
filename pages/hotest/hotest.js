@@ -39,6 +39,11 @@ Page({
     this.setData({
       hidden: false
     })
-    this.fetchData();
+    // this.fetchData();
+    let hotest = require("../../datasource/hot.js");
+    this.setData({
+      hidden: true,
+      hotest: hotest
+    })
   }
 })

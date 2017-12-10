@@ -48,7 +48,14 @@ Page({
   onLoad: function (options) {
     this.setData({
       hidden: false
+    });
+    let detail = require("../../datasource/topicinfo.js");
+    let replies = require("../../datasource/replies.js");
+    this.setData({
+      hidden: true,
+      detail: detail[0],
+      replies: replies
     })
-    this.fetchDetail(options.id);
+    // this.fetchDetail(options.id);
   }
 })
