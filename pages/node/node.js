@@ -3,6 +3,7 @@ var Api = require('../../utils/api.js');
 
 Page({
   data: {
+    cancel: true,
     title: '全部节点',
     nodes: [],
     hidden: false

@@ -1,5 +1,18 @@
 <!--node.wxml-->
 <view class="container">
+<view class="search">
+    <view class="form">
+      <view>
+        <input type="text" maxlength="20" name="name" bindinput="inputext" placeholder="搜索热点" value="{{value}}" />
+      </view>
+      <view class="button" hidden="{{cancel}}">
+        <button form-type="submit" plain="true">
+          取消
+          <!-- <icon type="search" size="20" color="#bcbcbd" /> -->
+        </button>
+      </view>
+    </view>
+</view>
   <view class="node-list">
     <block wx:for="{{nodes}}" wx:key="">
       <view class="node-item">

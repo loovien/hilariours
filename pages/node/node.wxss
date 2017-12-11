@@ -1,7 +1,41 @@
 .container {
     padding:30rpx 0 0
 }
-
+.search {
+  margin: 0 20rpx;
+}
+.search .form {
+    display: flex;
+    }
+.search .form view {
+    width:100%;
+}
+.search input {
+    border:none;
+    color: #515151;
+    background-color: #ececec;
+    border-radius:4rpx;
+    font-size: 28rpx;
+    padding: 0 .5em;
+    box-sizing: border-box;
+    height: 80rpx;
+    line-height:80rpx;
+    display: block;
+}
+.search .button {
+    width: 40rpx;
+    flex: 0 0 40rpx;
+    padding-left:10rpx;
+ }
+.button button {
+    padding: 0;
+    height:80rpx;
+    border: none;
+    line-height: 80rpx;
+    width: 60rpx;
+    display:block;
+    text-align: center;
+}
 .node-item {
     height:100rpx;
     line-height: 100rpx;
