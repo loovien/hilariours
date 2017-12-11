@@ -1,7 +1,7 @@
 <!--latest.wxml-->
 <view class="container">
   <view class="topic-main">
-      <block wx:for="{{latest}}">
+      <block wx:for="{{latest}}" wx:key="">
         <view class="topic-item" index="{{index}}" id="{{item.id}}" catchtap="redictDetail">
             <image class="member-avatar" src="{{item.member.avatar_normal}}" background-size="cover"></image>
             <view class="topic-info">

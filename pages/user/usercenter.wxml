@@ -1,7 +1,11 @@
 <!--node.wxml-->
 <view class="container">
+  <view class="user">
+    <image  class="user-avatar" src="{{userinfo.avatarUrl}}" background-size="cover"></image>
+    <text class='user-name'>{{userinfo.nickName}}</text>
+  </view>
   <view class="node-list">
-    <block wx:for="{{nodes}}" wx:key="">
+    <block wx:for="{{menu}}" wx:key="">
       <view class="node-item">
         <navigator url="../topicList/topicList?id={{item.id}}" hover-class="navigator-hover">
           <text class="node-title">{{item.title}}</text>
