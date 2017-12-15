@@ -10,9 +10,9 @@ module.exports = [
       "id": 60293,
       "username": "taoche",
       "tagline": "",
-      "avatar_mini": "//v2ex.assets.uxengine.net/avatar/c560/897e/60293_mini.png?m=1397531057",
-      "avatar_normal": "//v2ex.assets.uxengine.net/avatar/c560/897e/60293_normal.png?m=1397531057",
-      "avatar_large": "//v2ex.assets.uxengine.net/avatar/c560/897e/60293_large.png?m=1397531057"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/avatar/c560/897e/60293_mini.png?m=1397531057",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/avatar/c560/897e/60293_normal.png?m=1397531057",
+      "avatar_large": "https://v2ex.assets.uxengine.net/avatar/c560/897e/60293_large.png?m=1397531057"
     },
     "node": {
       "id": 300,
@@ -20,9 +20,9 @@ module.exports = [
       "title": "程序员",
       "url": "http://www.v2ex.com/go/programmer",
       "topics": 18840,
-      "avatar_mini": "//v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_mini.png?m=1512721470",
-      "avatar_normal": "//v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_normal.png?m=1512721470",
-      "avatar_large": "//v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_large.png?m=1512721470"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_mini.png?m=1512721470",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_normal.png?m=1512721470",
+      "avatar_large": "https://v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_large.png?m=1512721470"
     },
     "created": 1512875202,
     "last_modified": 1512875202,
@@ -39,9 +39,9 @@ module.exports = [
       "id": 60293,
       "username": "taoche",
       "tagline": "",
-      "avatar_mini": "//v2ex.assets.uxengine.net/avatar/c560/897e/60293_mini.png?m=1397531057",
-      "avatar_normal": "//v2ex.assets.uxengine.net/avatar/c560/897e/60293_normal.png?m=1397531057",
-      "avatar_large": "//v2ex.assets.uxengine.net/avatar/c560/897e/60293_large.png?m=1397531057"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/avatar/c560/897e/60293_mini.png?m=1397531057",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/avatar/c560/897e/60293_normal.png?m=1397531057",
+      "avatar_large": "https://v2ex.assets.uxengine.net/avatar/c560/897e/60293_large.png?m=1397531057"
     },
     "node": {
       "id": 300,
@@ -49,9 +49,9 @@ module.exports = [
       "title": "程序员",
       "url": "http://www.v2ex.com/go/programmer",
       "topics": 18840,
-      "avatar_mini": "//v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_mini.png?m=1512721470",
-      "avatar_normal": "//v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_normal.png?m=1512721470",
-      "avatar_large": "//v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_large.png?m=1512721470"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_mini.png?m=1512721470",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_normal.png?m=1512721470",
+      "avatar_large": "https://v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_large.png?m=1512721470"
     },
     "created": 1512875202,
     "last_modified": 1512875202,

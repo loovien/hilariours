@@ -10,9 +10,9 @@ module.exports = [
       "id": 222748,
       "username": "jamfer",
       "tagline": "",
-      "avatar_mini": "//v2ex.assets.uxengine.net/avatar/6b02/df11/222748_mini.png?m=1490327384",
-      "avatar_normal": "//v2ex.assets.uxengine.net/avatar/6b02/df11/222748_normal.png?m=1490327384",
-      "avatar_large": "//v2ex.assets.uxengine.net/avatar/6b02/df11/222748_large.png?m=1490327384"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/avatar/6b02/df11/222748_mini.png?m=1490327384",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/avatar/6b02/df11/222748_normal.png?m=1490327384",
+      "avatar_large": "https://v2ex.assets.uxengine.net/avatar/6b02/df11/222748_large.png?m=1490327384"
     },
     "node": {
       "id": 12,
@@ -21,9 +21,9 @@ module.exports = [
       "title_alternative": "Questions and Answers",
       "url": "http://www.v2ex.com/go/qna",
       "topics": 99125,
-      "avatar_mini": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_mini.png?m=1512721678",
-      "avatar_normal": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_normal.png?m=1512721678",
-      "avatar_large": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_large.png?m=1512721678"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_mini.png?m=1512721678",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_normal.png?m=1512721678",
+      "avatar_large": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_large.png?m=1512721678"
     },
     "created": 1512911638,
     "last_modified": 1512911638,
@@ -40,9 +40,9 @@ module.exports = [
       "id": 256805,
       "username": "acgnsstech",
       "tagline": "http://mdoc.vip",
-      "avatar_mini": "//v2ex.assets.uxengine.net/avatar/cee6/d3bb/256805_mini.png?m=1507168110",
-      "avatar_normal": "//v2ex.assets.uxengine.net/avatar/cee6/d3bb/256805_normal.png?m=1507168110",
-      "avatar_large": "//v2ex.assets.uxengine.net/avatar/cee6/d3bb/256805_large.png?m=1507168110"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/avatar/cee6/d3bb/256805_mini.png?m=1507168110",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/avatar/cee6/d3bb/256805_normal.png?m=1507168110",
+      "avatar_large": "https://v2ex.assets.uxengine.net/avatar/cee6/d3bb/256805_large.png?m=1507168110"
     },
     "node": {
       "id": 12,
@@ -51,9 +51,9 @@ module.exports = [
       "title_alternative": "Questions and Answers",
       "url": "http://www.v2ex.com/go/qna",
       "topics": 99125,
-      "avatar_mini": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_mini.png?m=1512721678",
-      "avatar_normal": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_normal.png?m=1512721678",
-      "avatar_large": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_large.png?m=1512721678"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_mini.png?m=1512721678",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_normal.png?m=1512721678",
+      "avatar_large": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_large.png?m=1512721678"
     },
     "created": 1512911267,
     "last_modified": 1512911267,
@@ -70,9 +70,9 @@ module.exports = [
       "id": 140272,
       "username": "xmoiduts",
       "tagline": "",
-      "avatar_mini": "//v2ex.assets.uxengine.net/gravatar/651bde7aa224a6fc9dc4c875e802614c?s=24&d=retro",
-      "avatar_normal": "//v2ex.assets.uxengine.net/gravatar/651bde7aa224a6fc9dc4c875e802614c?s=48&d=retro",
-      "avatar_large": "//v2ex.assets.uxengine.net/gravatar/651bde7aa224a6fc9dc4c875e802614c?s=73&d=retro"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/gravatar/651bde7aa224a6fc9dc4c875e802614c?s=24&d=retro",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/gravatar/651bde7aa224a6fc9dc4c875e802614c?s=48&d=retro",
+      "avatar_large": "https://v2ex.assets.uxengine.net/gravatar/651bde7aa224a6fc9dc4c875e802614c?s=73&d=retro"
     },
     "node": {
       "id": 12,
@@ -81,9 +81,9 @@ module.exports = [
       "title_alternative": "Questions and Answers",
       "url": "http://www.v2ex.com/go/qna",
       "topics": 99125,
-      "avatar_mini": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_mini.png?m=1512721678",
-      "avatar_normal": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_normal.png?m=1512721678",
-      "avatar_large": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_large.png?m=1512721678"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_mini.png?m=1512721678",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_normal.png?m=1512721678",
+      "avatar_large": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_large.png?m=1512721678"
     },
     "created": 1512911058,
     "last_modified": 1512911058,
@@ -100,9 +100,9 @@ module.exports = [
       "id": 241613,
       "username": "SeonMe",
       "tagline": "",
-      "avatar_mini": "//v2ex.assets.uxengine.net/avatar/cf68/999e/241613_mini.png?m=1512894832",
-      "avatar_normal": "//v2ex.assets.uxengine.net/avatar/cf68/999e/241613_normal.png?m=1512894832",
-      "avatar_large": "//v2ex.assets.uxengine.net/avatar/cf68/999e/241613_large.png?m=1512894832"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/avatar/cf68/999e/241613_mini.png?m=1512894832",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/avatar/cf68/999e/241613_normal.png?m=1512894832",
+      "avatar_large": "https://v2ex.assets.uxengine.net/avatar/cf68/999e/241613_large.png?m=1512894832"
     },
     "node": {
       "id": 4,
@@ -111,9 +111,9 @@ module.exports = [
       "title_alternative": "Music",
       "url": "http://www.v2ex.com/go/music",
       "topics": 989,
-      "avatar_mini": "//v2ex.assets.uxengine.net/navatar/a87f/f679/4_mini.png?m=1433959296",
-      "avatar_normal": "//v2ex.assets.uxengine.net/navatar/a87f/f679/4_normal.png?m=1433959296",
-      "avatar_large": "//v2ex.assets.uxengine.net/navatar/a87f/f679/4_large.png?m=1433959296"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/navatar/a87f/f679/4_mini.png?m=1433959296",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/navatar/a87f/f679/4_normal.png?m=1433959296",
+      "avatar_large": "https://v2ex.assets.uxengine.net/navatar/a87f/f679/4_large.png?m=1433959296"
     },
     "created": 1512911023,
     "last_modified": 1512911188,
@@ -130,9 +130,9 @@ module.exports = [
       "id": 233934,
       "username": "ialva",
       "tagline": "",
-      "avatar_mini": "//v2ex.assets.uxengine.net/gravatar/607a197d2320846c04ac98a4f20a2459?s=24&d=retro",
-      "avatar_normal": "//v2ex.assets.uxengine.net/gravatar/607a197d2320846c04ac98a4f20a2459?s=48&d=retro",
-      "avatar_large": "//v2ex.assets.uxengine.net/gravatar/607a197d2320846c04ac98a4f20a2459?s=73&d=retro"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/gravatar/607a197d2320846c04ac98a4f20a2459?s=24&d=retro",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/gravatar/607a197d2320846c04ac98a4f20a2459?s=48&d=retro",
+      "avatar_large": "https://v2ex.assets.uxengine.net/gravatar/607a197d2320846c04ac98a4f20a2459?s=73&d=retro"
     },
     "node": {
       "id": 8,
@@ -141,9 +141,9 @@ module.exports = [
       "title_alternative": "iPhone",
       "url": "http://www.v2ex.com/go/iphone",
       "topics": 4922,
-      "avatar_mini": "//v2ex.assets.uxengine.net/navatar/c9f0/f895/8_mini.png?m=1511159626",
-      "avatar_normal": "//v2ex.assets.uxengine.net/navatar/c9f0/f895/8_normal.png?m=1511159626",
-      "avatar_large": "//v2ex.assets.uxengine.net/navatar/c9f0/f895/8_large.png?m=1511159626"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/navatar/c9f0/f895/8_mini.png?m=1511159626",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/navatar/c9f0/f895/8_normal.png?m=1511159626",
+      "avatar_large": "https://v2ex.assets.uxengine.net/navatar/c9f0/f895/8_large.png?m=1511159626"
     },
     "created": 1512910951,
     "last_modified": 1512910951,
@@ -160,9 +160,9 @@ module.exports = [
       "id": 271393,
       "username": "1tunes",
       "tagline": "",
-      "avatar_mini": "//v2ex.assets.uxengine.net/gravatar/fde8c05ea33aaafdcc2d350fe4eb61ca?s=24&d=retro",
-      "avatar_normal": "//v2ex.assets.uxengine.net/gravatar/fde8c05ea33aaafdcc2d350fe4eb61ca?s=48&d=retro",
-      "avatar_large": "//v2ex.assets.uxengine.net/gravatar/fde8c05ea33aaafdcc2d350fe4eb61ca?s=73&d=retro"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/gravatar/fde8c05ea33aaafdcc2d350fe4eb61ca?s=24&d=retro",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/gravatar/fde8c05ea33aaafdcc2d350fe4eb61ca?s=48&d=retro",
+      "avatar_large": "https://v2ex.assets.uxengine.net/gravatar/fde8c05ea33aaafdcc2d350fe4eb61ca?s=73&d=retro"
     },
     "node": {
       "id": 12,
@@ -171,9 +171,9 @@ module.exports = [
       "title_alternative": "Questions and Answers",
       "url": "http://www.v2ex.com/go/qna",
       "topics": 99125,
-      "avatar_mini": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_mini.png?m=1512721678",
-      "avatar_normal": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_normal.png?m=1512721678",
-      "avatar_large": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_large.png?m=1512721678"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_mini.png?m=1512721678",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_normal.png?m=1512721678",
+      "avatar_large": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_large.png?m=1512721678"
     },
     "created": 1512910484,
     "last_modified": 1512911059,
@@ -190,9 +190,9 @@ module.exports = [
       "id": 202989,
       "username": "maysixteenth",
       "tagline": "",
-      "avatar_mini": "//v2ex.assets.uxengine.net/avatar/8c09/55a7/202989_mini.png?m=1494234967",
-      "avatar_normal": "//v2ex.assets.uxengine.net/avatar/8c09/55a7/202989_normal.png?m=1494234967",
-      "avatar_large": "//v2ex.assets.uxengine.net/avatar/8c09/55a7/202989_large.png?m=1494234967"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/avatar/8c09/55a7/202989_mini.png?m=1494234967",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/avatar/8c09/55a7/202989_normal.png?m=1494234967",
+      "avatar_large": "https://v2ex.assets.uxengine.net/avatar/8c09/55a7/202989_large.png?m=1494234967"
     },
     "node": {
       "id": 12,
@@ -201,9 +201,9 @@ module.exports = [
       "title_alternative": "Questions and Answers",
       "url": "http://www.v2ex.com/go/qna",
       "topics": 99125,
-      "avatar_mini": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_mini.png?m=1512721678",
-      "avatar_normal": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_normal.png?m=1512721678",
-      "avatar_large": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_large.png?m=1512721678"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_mini.png?m=1512721678",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_normal.png?m=1512721678",
+      "avatar_large": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_large.png?m=1512721678"
     },
     "created": 1512910376,
     "last_modified": 1512910376,
@@ -220,9 +220,9 @@ module.exports = [
       "id": 113789,
       "username": "ossphil",
       "tagline": "",
-      "avatar_mini": "//v2ex.assets.uxengine.net/avatar/a521/ffb0/113789_mini.png?m=1509517752",
-      "avatar_normal": "//v2ex.assets.uxengine.net/avatar/a521/ffb0/113789_normal.png?m=1509517752",
-      "avatar_large": "//v2ex.assets.uxengine.net/avatar/a521/ffb0/113789_large.png?m=1509517752"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/avatar/a521/ffb0/113789_mini.png?m=1509517752",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/avatar/a521/ffb0/113789_normal.png?m=1509517752",
+      "avatar_large": "https://v2ex.assets.uxengine.net/avatar/a521/ffb0/113789_large.png?m=1509517752"
     },
     "node": {
       "id": 184,
@@ -231,9 +231,9 @@ module.exports = [
       "title_alternative": "Apple",
       "url": "http://www.v2ex.com/go/apple",
       "topics": 4689,
-      "avatar_mini": "//v2ex.assets.uxengine.net/navatar/6cdd/60ea/184_mini.png?m=1510815506",
-      "avatar_normal": "//v2ex.assets.uxengine.net/navatar/6cdd/60ea/184_normal.png?m=1510815506",
-      "avatar_large": "//v2ex.assets.uxengine.net/navatar/6cdd/60ea/184_large.png?m=1510815506"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/navatar/6cdd/60ea/184_mini.png?m=1510815506",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/navatar/6cdd/60ea/184_normal.png?m=1510815506",
+      "avatar_large": "https://v2ex.assets.uxengine.net/navatar/6cdd/60ea/184_large.png?m=1510815506"
     },
     "created": 1512910347,
     "last_modified": 1512910347,
@@ -250,9 +250,9 @@ module.exports = [
       "id": 43413,
       "username": "kxxoling",
       "tagline": "",
-      "avatar_mini": "//v2ex.assets.uxengine.net/avatar/ec42/be71/43413_mini.png?m=1396917881",
-      "avatar_normal": "//v2ex.assets.uxengine.net/avatar/ec42/be71/43413_normal.png?m=1396917881",
-      "avatar_large": "//v2ex.assets.uxengine.net/avatar/ec42/be71/43413_large.png?m=1396917881"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/avatar/ec42/be71/43413_mini.png?m=1396917881",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/avatar/ec42/be71/43413_normal.png?m=1396917881",
+      "avatar_large": "https://v2ex.assets.uxengine.net/avatar/ec42/be71/43413_large.png?m=1396917881"
     },
     "node": {
       "id": 184,
@@ -261,9 +261,9 @@ module.exports = [
       "title_alternative": "Apple",
       "url": "http://www.v2ex.com/go/apple",
       "topics": 4689,
-      "avatar_mini": "//v2ex.assets.uxengine.net/navatar/6cdd/60ea/184_mini.png?m=1510815506",
-      "avatar_normal": "//v2ex.assets.uxengine.net/navatar/6cdd/60ea/184_normal.png?m=1510815506",
-      "avatar_large": "//v2ex.assets.uxengine.net/navatar/6cdd/60ea/184_large.png?m=1510815506"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/navatar/6cdd/60ea/184_mini.png?m=1510815506",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/navatar/6cdd/60ea/184_normal.png?m=1510815506",
+      "avatar_large": "https://v2ex.assets.uxengine.net/navatar/6cdd/60ea/184_large.png?m=1510815506"
     },
     "created": 1512910287,
     "last_modified": 1512910287,
@@ -280,9 +280,9 @@ module.exports = [
       "id": 250842,
       "username": "opengps",
       "tagline": "openGPS.cn",
-      "avatar_mini": "//v2ex.assets.uxengine.net/avatar/1e8a/4d9b/250842_mini.png?m=1504054000",
-      "avatar_normal": "//v2ex.assets.uxengine.net/avatar/1e8a/4d9b/250842_normal.png?m=1504054000",
-      "avatar_large": "//v2ex.assets.uxengine.net/avatar/1e8a/4d9b/250842_large.png?m=1504054000"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/avatar/1e8a/4d9b/250842_mini.png?m=1504054000",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/avatar/1e8a/4d9b/250842_normal.png?m=1504054000",
+      "avatar_large": "https://v2ex.assets.uxengine.net/avatar/1e8a/4d9b/250842_large.png?m=1504054000"
     },
     "node": {
       "id": 12,
@@ -291,9 +291,9 @@ module.exports = [
       "title_alternative": "Questions and Answers",
       "url": "http://www.v2ex.com/go/qna",
       "topics": 99125,
-      "avatar_mini": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_mini.png?m=1512721678",
-      "avatar_normal": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_normal.png?m=1512721678",
-      "avatar_large": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_large.png?m=1512721678"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_mini.png?m=1512721678",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_normal.png?m=1512721678",
+      "avatar_large": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_large.png?m=1512721678"
     },
     "created": 1512910228,
     "last_modified": 1512910228,
@@ -310,9 +310,9 @@ module.exports = [
       "id": 273165,
       "username": "dlf123",
       "tagline": "",
-      "avatar_mini": "//v2ex.assets.uxengine.net/gravatar/b319c46140ba418ebaac7e63b9e8f867?s=24&d=retro",
-      "avatar_normal": "//v2ex.assets.uxengine.net/gravatar/b319c46140ba418ebaac7e63b9e8f867?s=48&d=retro",
-      "avatar_large": "//v2ex.assets.uxengine.net/gravatar/b319c46140ba418ebaac7e63b9e8f867?s=73&d=retro"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/gravatar/b319c46140ba418ebaac7e63b9e8f867?s=24&d=retro",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/gravatar/b319c46140ba418ebaac7e63b9e8f867?s=48&d=retro",
+      "avatar_large": "https://v2ex.assets.uxengine.net/gravatar/b319c46140ba418ebaac7e63b9e8f867?s=73&d=retro"
     },
     "node": {
       "id": 300,
@@ -321,9 +321,9 @@ module.exports = [
       "title_alternative": "Programmer",
       "url": "http://www.v2ex.com/go/programmer",
       "topics": 18840,
-      "avatar_mini": "//v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_mini.png?m=1512721470",
-      "avatar_normal": "//v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_normal.png?m=1512721470",
-      "avatar_large": "//v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_large.png?m=1512721470"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_mini.png?m=1512721470",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_normal.png?m=1512721470",
+      "avatar_large": "https://v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_large.png?m=1512721470"
     },
     "created": 1512910128,
     "last_modified": 1512910128,
@@ -340,9 +340,9 @@ module.exports = [
       "id": 191441,
       "username": "onyourroad",
       "tagline": "",
-      "avatar_mini": "//v2ex.assets.uxengine.net/avatar/9418/4c86/191441_mini.png?m=1509455121",
-      "avatar_normal": "//v2ex.assets.uxengine.net/avatar/9418/4c86/191441_normal.png?m=1509455121",
-      "avatar_large": "//v2ex.assets.uxengine.net/avatar/9418/4c86/191441_large.png?m=1509455121"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/avatar/9418/4c86/191441_mini.png?m=1509455121",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/avatar/9418/4c86/191441_normal.png?m=1509455121",
+      "avatar_large": "https://v2ex.assets.uxengine.net/avatar/9418/4c86/191441_large.png?m=1509455121"
     },
     "node": {
       "id": 146,
@@ -351,9 +351,9 @@ module.exports = [
       "title_alternative": "JavaScript",
       "url": "http://www.v2ex.com/go/js",
       "topics": 1560,
-      "avatar_mini": "//v2ex.assets.uxengine.net/navatar/a5e0/0132/146_mini.png?m=1507606889",
-      "avatar_normal": "//v2ex.assets.uxengine.net/navatar/a5e0/0132/146_normal.png?m=1507606889",
-      "avatar_large": "//v2ex.assets.uxengine.net/navatar/a5e0/0132/146_large.png?m=1507606889"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/navatar/a5e0/0132/146_mini.png?m=1507606889",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/navatar/a5e0/0132/146_normal.png?m=1507606889",
+      "avatar_large": "https://v2ex.assets.uxengine.net/navatar/a5e0/0132/146_large.png?m=1507606889"
     },
     "created": 1512909723,
     "last_modified": 1512909723,
@@ -370,9 +370,9 @@ module.exports = [
       "id": 5706,
       "username": "wynemo",
       "tagline": "",
-      "avatar_mini": "//v2ex.assets.uxengine.net/avatar/9960/7461/5706_mini.png?m=1426564692",
-      "avatar_normal": "//v2ex.assets.uxengine.net/avatar/9960/7461/5706_normal.png?m=1426564692",
-      "avatar_large": "//v2ex.assets.uxengine.net/avatar/9960/7461/5706_large.png?m=1426564692"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/avatar/9960/7461/5706_mini.png?m=1426564692",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/avatar/9960/7461/5706_normal.png?m=1426564692",
+      "avatar_large": "https://v2ex.assets.uxengine.net/avatar/9960/7461/5706_large.png?m=1426564692"
     },
     "node": {
       "id": 938,
@@ -381,9 +381,9 @@ module.exports = [
       "title_alternative": "Global Ticket System",
       "url": "http://www.v2ex.com/go/gts",
       "topics": 1742,
-      "avatar_mini": "//v2ex.assets.uxengine.net/navatar/74bb/a227/938_mini.png?m=1511518444",
-      "avatar_normal": "//v2ex.assets.uxengine.net/navatar/74bb/a227/938_normal.png?m=1511518444",
-      "avatar_large": "//v2ex.assets.uxengine.net/navatar/74bb/a227/938_large.png?m=1511518444"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/navatar/74bb/a227/938_mini.png?m=1511518444",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/navatar/74bb/a227/938_normal.png?m=1511518444",
+      "avatar_large": "https://v2ex.assets.uxengine.net/navatar/74bb/a227/938_large.png?m=1511518444"
     },
     "created": 1512909624,
     "last_modified": 1512909624,
@@ -400,9 +400,9 @@ module.exports = [
       "id": 266149,
       "username": "cnaol",
       "tagline": "",
-      "avatar_mini": "//v2ex.assets.uxengine.net/gravatar/9ee828eb9e9ad540225f7e6eac2a1229?s=24&d=retro",
-      "avatar_normal": "//v2ex.assets.uxengine.net/gravatar/9ee828eb9e9ad540225f7e6eac2a1229?s=48&d=retro",
-      "avatar_large": "//v2ex.assets.uxengine.net/gravatar/9ee828eb9e9ad540225f7e6eac2a1229?s=73&d=retro"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/gravatar/9ee828eb9e9ad540225f7e6eac2a1229?s=24&d=retro",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/gravatar/9ee828eb9e9ad540225f7e6eac2a1229?s=48&d=retro",
+      "avatar_large": "https://v2ex.assets.uxengine.net/gravatar/9ee828eb9e9ad540225f7e6eac2a1229?s=73&d=retro"
     },
     "node": {
       "id": 12,
@@ -411,9 +411,9 @@ module.exports = [
       "title_alternative": "Questions and Answers",
       "url": "http://www.v2ex.com/go/qna",
       "topics": 99125,
-      "avatar_mini": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_mini.png?m=1512721678",
-      "avatar_normal": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_normal.png?m=1512721678",
-      "avatar_large": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_large.png?m=1512721678"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_mini.png?m=1512721678",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_normal.png?m=1512721678",
+      "avatar_large": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_large.png?m=1512721678"
     },
     "created": 1512909538,
     "last_modified": 1512909581,
@@ -430,9 +430,9 @@ module.exports = [
       "id": 226612,
       "username": "lixuedong",
       "tagline": "",
-      "avatar_mini": "//v2ex.assets.uxengine.net/gravatar/a8b60c647d641bc814e5a12b8a569aca?s=24&d=retro",
-      "avatar_normal": "//v2ex.assets.uxengine.net/gravatar/a8b60c647d641bc814e5a12b8a569aca?s=48&d=retro",
-      "avatar_large": "//v2ex.assets.uxengine.net/gravatar/a8b60c647d641bc814e5a12b8a569aca?s=73&d=retro"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/gravatar/a8b60c647d641bc814e5a12b8a569aca?s=24&d=retro",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/gravatar/a8b60c647d641bc814e5a12b8a569aca?s=48&d=retro",
+      "avatar_large": "https://v2ex.assets.uxengine.net/gravatar/a8b60c647d641bc814e5a12b8a569aca?s=73&d=retro"
     },
     "node": {
       "id": 300,
@@ -441,9 +441,9 @@ module.exports = [
       "title_alternative": "Programmer",
       "url": "http://www.v2ex.com/go/programmer",
       "topics": 18840,
-      "avatar_mini": "//v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_mini.png?m=1512721470",
-      "avatar_normal": "//v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_normal.png?m=1512721470",
-      "avatar_large": "//v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_large.png?m=1512721470"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_mini.png?m=1512721470",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_normal.png?m=1512721470",
+      "avatar_large": "https://v2ex.assets.uxengine.net/navatar/94f6/d7e0/300_large.png?m=1512721470"
     },
     "created": 1512908973,
     "last_modified": 1512908973,
@@ -460,9 +460,9 @@ module.exports = [
       "id": 3993,
       "username": "miao",
       "tagline": "",
-      "avatar_mini": "//v2ex.assets.uxengine.net/avatar/c12d/1f7c/3993_mini.png?m=1431269157",
-      "avatar_normal": "//v2ex.assets.uxengine.net/avatar/c12d/1f7c/3993_normal.png?m=1431269157",
-      "avatar_large": "//v2ex.assets.uxengine.net/avatar/c12d/1f7c/3993_large.png?m=1431269157"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/avatar/c12d/1f7c/3993_mini.png?m=1431269157",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/avatar/c12d/1f7c/3993_normal.png?m=1431269157",
+      "avatar_large": "https://v2ex.assets.uxengine.net/avatar/c12d/1f7c/3993_large.png?m=1431269157"
     },
     "node": {
       "id": 12,
@@ -471,9 +471,9 @@ module.exports = [
       "title_alternative": "Questions and Answers",
       "url": "http://www.v2ex.com/go/qna",
       "topics": 99125,
-      "avatar_mini": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_mini.png?m=1512721678",
-      "avatar_normal": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_normal.png?m=1512721678",
-      "avatar_large": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_large.png?m=1512721678"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_mini.png?m=1512721678",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_normal.png?m=1512721678",
+      "avatar_large": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_large.png?m=1512721678"
     },
     "created": 1512908691,
     "last_modified": 1512908691,

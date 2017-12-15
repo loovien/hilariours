@@ -1,32 +1,41 @@
-//app.js
+"use strict";
+
+var wxUtil = require("utils/wx.js");
+console.log(wxUtil)
 App({
-  onLaunch: function () {
-    //调用API从本地缓存中获取数据
-    // var logs = wx.getStorageSync('logs') || []
-    // logs.unshift(Date.now())
-    // wx.setStorageSync('logs', logs)
-    this.getUserInfo();
-    
-  },
-  getUserInfo:function(cb){
-    var that = this;
-    if(this.globalData.userInfo){
-      typeof cb == "function" && cb(this.globalData.userInfo)
-    } else {
-      //调用登录接口
-      wx.login({
-        success: function () {
-          wx.getUserInfo({
-            success: function (res) {
-              that.globalData.userInfo = res.userInfo;
-              typeof cb == "function" && cb(that.globalData.userInfo)
+    onLaunch: function () {
+        var that = this;
+        that.getUserInfo();
+    },
+    getUserInfo:function(callback){
+        var that = this;
+        if(that.appData.userInfo){
+            if (typeof cb == "function") {
+                callback(that.appData.userInfo);
             }
-          })
+            return;
         }
-      });
+        wx.login({ //调用登录接口
+            withCredentials: true,
+            success: function (resp) {
+                console.log(resp)
+                if (!resp.errMsg == "login:ok") {
+                    that.getUserInfo();
+                    return;
+                }
+                var authURL = wxUtil.getAuthURL();
+                wx.getUserInfo({
+                    success: function (res) {
+                        that.appData.userInfo = res.userInfo;
+                        typeof callback == "function" && callback(that.appData.userInfo)
+                    }
+                });
+            }
+        });
+    },
+    appData: {
+        openid: "",
+        unionid: "",
+        userInfo: null
     }
-  },
-  globalData:{
-    userInfo:null
-  }
-})
+});

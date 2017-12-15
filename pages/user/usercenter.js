@@ -15,7 +15,7 @@ Page({
 
   fetchUserInfo:function() {
     var app = getApp();
-    var userInfo = app.globalData.userInfo;
+    var userInfo = app.appData.userInfo;
     console.log(userInfo);
     return userInfo;
   },

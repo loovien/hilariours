@@ -10,9 +10,9 @@ module.exports = [
       "id": 35580,
       "username": "zqjilove",
       "tagline": "",
-      "avatar_mini": "//v2ex.assets.uxengine.net/avatar/11ee/e5a9/35580_mini.png?m=1391841498",
-      "avatar_normal": "//v2ex.assets.uxengine.net/avatar/11ee/e5a9/35580_normal.png?m=1391841498",
-      "avatar_large": "//v2ex.assets.uxengine.net/avatar/11ee/e5a9/35580_large.png?m=1391841498"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/avatar/11ee/e5a9/35580_mini.png?m=1391841498",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/avatar/11ee/e5a9/35580_normal.png?m=1391841498",
+      "avatar_large": "https://v2ex.assets.uxengine.net/avatar/11ee/e5a9/35580_large.png?m=1391841498"
     },
     "node": {
       "id": 12,
@@ -20,9 +20,9 @@ module.exports = [
       "title": "问与答",
       "url": "http://www.v2ex.com/go/qna",
       "topics": 99125,
-      "avatar_mini": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_mini.png?m=1512721678",
-      "avatar_normal": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_normal.png?m=1512721678",
-      "avatar_large": "//v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_large.png?m=1512721678"
+      "avatar_mini": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_mini.png?m=1512721678",
+      "avatar_normal": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_normal.png?m=1512721678",
+      "avatar_large": "https://v2ex.assets.uxengine.net/navatar/c20a/d4d7/12_large.png?m=1512721678"
     },
     "created": 1404637263,
     "last_modified": 1404637263,
