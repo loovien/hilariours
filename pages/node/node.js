@@ -30,7 +30,7 @@ Page({
   },
   onLoad: function () {
     // this.fetchData();
-    let nodes = require("../../datasource/all.js");
+    var nodes = require("../../datasource/all.js");
     this.setData({
       hidden: true,
       nodes: nodes

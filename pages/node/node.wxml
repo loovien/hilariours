@@ -17,7 +17,7 @@
     <block wx:for="{{nodes}}" wx:key="">
       <view class="node-item">
         <navigator url="../topicList/topicList?id={{item.id}}" hover-class="navigator-hover">
-          <text class="node-title">{{item.title}}</text>
+          <text class="node-title">{{item.name}}</text>
         </navigator>
       </view>
     </block>
