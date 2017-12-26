@@ -1,1 +1,52 @@
 /* pages/user/deploy.wxss */
+
+
+.deploy-info {
+    flex:1;
+    font-size: 24rpx;
+    position: relative;
+}
+
+.deploy-inner {
+    display: flex;
+    align-items: center;
+    color:#777;
+}
+
+.deploy-title {
+    line-height: 1.4;
+    box-sizing: border-box;
+    padding: 5rpx 0;
+    font-size: 30rpx;
+    font-weight: 500;
+    overflow:hidden;
+}
+
+.deploy-content {
+    line-height: 1.4;
+    box-sizing: border-box;
+    padding: 10rpx 0;
+    font-weight: 500;
+    overflow:hidden;
+}
+
+.deploy-cate {
+    margin-top: 20rpx;
+}
+
+
+.deploy-num {
+  font: 12rpx;
+  position: absolote;
+  right: 0;
+  top: 50%;
+}
+
+.deploy-check {
+    display: block;
+    padding: 5rpx 10rpx;
+    border-radius: 5rpx;
+    position: absolote;
+    right: 0;
+    bottom: 0;
+}
