@@ -29,8 +29,12 @@ Page({
       hidden: true,
       userinfo: userinfo,
       menu:[
+        {title: "我要提现", url: "carsh"},
+        {title: "我的收入", url: "income"},
+        {title: "我的支出", url: "outcome"},
         {title: "发布记录", url: "deploy"},
-        {title: "评论记录", url: "replies"}
+        {title: "评论记录", url: "replies"},
+        {title: "意见反馈", url: "feedback"}
       ]
     })
   },
