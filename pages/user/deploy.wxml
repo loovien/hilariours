@@ -8,54 +8,44 @@
                     <view class="deploy-left">
                         <view class="deploy-title"><text>我的发布阿斯利的看法, </text></view>
                         <view class="deploy-content"><text>我的发布阿斯利的看法, 是一个好高效的段子.阿德,拉第三方辣辣的辣椒粉斯蒂芬偶偶!</text></view>
-                        <view class="deploy-cate">
-                            <text class="node-name">高效</text>
-                            <text class="member-nickname">超级无聊</text>
-                        </view>
                     </view>
-                    <!-- <view class="deply-num">1000</view> -->
-                    <text class="deploy-check">审核中</text>
-                </view>
-            </view>
-        </view>
-        <view class="topic-item">
-            <view class="topic-info">
-                <view class="topic-inner">
-                    <view class="topic-left">
-                        <view class="topic-title"><text>我的发布</text></view>
-                        <view >
-                            <text class="node-name">高效</text>
-                            <text class="member-nickname">超级无聊</text>
-                            <text class="deploy-check">审核中</text>
-                        </view>
+                    <view class="deploy-cate">
+                        <text class="node-name">高效</text>
+                        <text class="member-nickname">超级无聊</text>
+                        <!-- <view class="deply-num">1000</view> -->
+                        <text class="deploy-check">审核中</text>
                     </view>
                 </view>
             </view>
         </view>
         <view class="topic-item">
-            <view class="topic-info">
-                <view class="topic-inner">
-                    <view class="topic-left">
-                        <view class="topic-title"><text>我的发布</text></view>
-                        <view >
-                            <text class="node-name">高效</text>
-                            <text class="member-nickname">超级无聊</text>
-                            <text class="deploy-check">审核中</text>
-                        </view>
+            <view class="deploy-info">
+                <view class="deploy-inner">
+                    <view class="deploy-left">
+                        <view class="deploy-title"><text>我的发布阿斯利的看法, </text></view>
+                        <view class="deploy-content"><text>我的发布阿斯利的看法, 是一个好高效的段子.阿德,拉第三方辣辣的辣椒粉斯蒂芬偶偶!</text></view>
+                    </view>
+                    <view class="deploy-cate">
+                        <text class="node-name">高效</text>
+                        <text class="member-nickname">超级无聊</text>
+                        <!-- <view class="deply-num">1000</view> -->
+                        <text class="deploy-check">审核中</text>
                     </view>
                 </view>
             </view>
         </view>
         <view class="topic-item">
-            <view class="topic-info">
-                <view class="topic-inner">
-                    <view class="topic-left">
-                        <view class="topic-title"><text>我的发布</text></view>
-                        <view >
-                            <text class="node-name">高效</text>
-                            <text class="member-nickname">超级无聊</text>
-                            <text class="deploy-check">审核中</text>
-                        </view>
+            <view class="deploy-info">
+                <view class="deploy-inner">
+                    <view class="deploy-left">
+                        <view class="deploy-title"><text>我的发布阿斯利的看法, </text></view>
+                        <view class="deploy-content"><text>我的发布阿斯利的看法, 是一个好高效的段子.阿德,拉第三方辣辣的辣椒粉斯蒂芬偶偶!</text></view>
+                    </view>
+                    <view class="deploy-cate">
+                        <text class="node-name">高效</text>
+                        <text class="member-nickname">超级无聊</text>
+                        <!-- <view class="deply-num">1000</view> -->
+                        <text class="deploy-check">审核中</text>
                     </view>
                 </view>
             </view>

@@ -8,7 +8,7 @@
 }
 
 .deploy-inner {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     color:#777;
 }
@@ -23,7 +23,7 @@
 }
 
 .deploy-content {
-    line-height: 1.4;
+    line-height: 1.5;
     box-sizing: border-box;
     padding: 10rpx 0;
     font-weight: 500;
@@ -31,7 +31,9 @@
 }
 
 .deploy-cate {
+    display: block;
     margin-top: 20rpx;
+    position: relative;
 }
 
 
@@ -43,10 +45,11 @@
 }
 
 .deploy-check {
-    display: block;
+    display: inline-block;
     padding: 5rpx 10rpx;
+    background: #abcdef;
     border-radius: 5rpx;
-    position: absolote;
+    position: absolute;
     right: 0;
-    bottom: 0;
 }
+
