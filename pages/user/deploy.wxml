@@ -1,0 +1,24 @@
+<!--pages/user/deploy.wxml-->
+<view class="container">
+  <view class="topic-main">
+      <!-- <block wx:for="{{deploy}}" wx:key=""> -->
+        <view class="topic-item">
+            <view class="topic-info">
+                <view class="topic-inner">
+                    <view class="topic-left">
+                        <view class="topic-title"><text>我的发布</text></view>
+                        <view >
+                            <text class="node-name">高效</text>
+                            <text class="member-nickname">超级无聊</text>
+                            <text class="member-nickname">审核中</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+      <!-- </block> -->
+  </view>
+  <loading hidden="{{hidden}}">
+    加载中...
+  </loading>
+</view>

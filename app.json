@@ -5,7 +5,9 @@
     "pages/node/node",
     "pages/topicList/topicList",
     "pages/detail/detail",
-    "pages/user/usercenter"
+    "pages/user/usercenter",
+    "pages/user/deploy",
+    "pages/user/replies"
   ],
   "window":{
     "backgroundTextStyle":"light",

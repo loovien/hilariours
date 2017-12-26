@@ -7,7 +7,7 @@
   <view class="node-list">
     <block wx:for="{{menu}}" wx:key="">
       <view class="node-item">
-        <navigator url="../topicList/topicList?id={{item.id}}" hover-class="navigator-hover">
+        <navigator url="{{item.url}}" hover-class="navigator-hover">
           <text class="node-title">{{item.title}}</text>
         </navigator>
       </view>

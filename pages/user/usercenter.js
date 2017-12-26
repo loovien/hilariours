@@ -29,8 +29,8 @@ Page({
       hidden: true,
       userinfo: userinfo,
       menu:[
-        {title: "发布记录"},
-        {title: "评论记录"}
+        {title: "发布记录", url: "deploy"},
+        {title: "评论记录", url: "replies"}
       ]
     })
   },
