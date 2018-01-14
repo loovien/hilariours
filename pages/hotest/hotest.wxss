@@ -1,0 +1,12 @@
+.load-more {
+    padding: 10rpx 0;
+    cursor: pointer;
+    color: #ccc;
+    font-size: 24rpx;
+    text-align: center;
+}
+
+.member-time {
+    float: right;
+}
+

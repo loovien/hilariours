@@ -1,7 +1,5 @@
 "use strict";
-
-var wxUtil = require("utils/wx.js");
-console.log(wxUtil)
+var apiutil = require("./utils/apiutil.js");
 App({
     onLaunch: function () {
         var that = this;
@@ -15,22 +13,38 @@ App({
             }
             return;
         }
-        wx.login({ //调用登录接口
+        var wxlogin = new Promise(function(resolve, reject){
+          wx.login({ //调用登录接口
             withCredentials: true,
             success: function (resp) {
-                console.log(resp)
-                if (!resp.errMsg == "login:ok") {
-                    that.getUserInfo();
-                    return;
-                }
-                var authURL = wxUtil.getAuthURL();
-                wx.getUserInfo({
-                    success: function (res) {
-                        that.appData.userInfo = res.userInfo;
-                        typeof callback == "function" && callback(that.appData.userInfo)
-                    }
-                });
+              console.log(resp)
+              if (!resp.errMsg == "login:ok") {
+                that.getUserInfo();
+                return;
+              }
+              resolve(resp)
             }
+          });
+        });
+        var wxuserinfo = new Promise(function(resolve){
+              wx.getUserInfo({
+                success: function (res) {
+                  that.appData.userInfo = res.userInfo;
+                  resolve(res.userInfo)
+                }
+              });
+        });
+        Promise.all([wxlogin, wxuserinfo]).then(function(values){
+            var code = values[0]['code'];
+            apiutil.getOpenID({jscode: code}).then(function(resp) {
+                that.appData.openid = resp.data.data.openid;
+                var putUserInfo = Object.assign({}, resp.data.data, values[1]);
+                putUserInfo.nickname = putUserInfo.nickName;
+                putUserInfo.avatar = putUserInfo.avatarUrl;
+                apiutil.putUserInfo(putUserInfo).then(function(resp) {
+                    console.log("上报用户信息:", resp);
+                });
+            });
         });
     },
     appData: {

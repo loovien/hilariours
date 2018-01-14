@@ -1,61 +1,43 @@
 // detail.js
-var Util = require('../../utils/util.js');
-var Api = require('../../utils/api.js');
+var formatutil = require("../../utils/formatutil.js");
+var apiutil = require('../../utils/apiutil.js');
 
 Page({
   data: {
-    title: '话题详情',
+    title: '段子详情',
     detail: {},
     replies: [],
     hidden: false
   },
   fetchDetail: function(id) {
     var that = this;
-    wx.request({
-      url: Api.getTopicInfo({
-        id: id
-      }),
-      success: function(res) {
-        res.data[0].created = Util.formatTime(Util.transLocalTime(res.data[0].created));
+    apiutil.getJoker({id: id}).then(function(resp) {
+        console.log(resp)
+        var respData = resp.data.data;
+        respData.createdAt = formatutil.formatTime(formatutil.transLocalTime(respData.createdAt));
         that.setData({
-          detail: res.data[0]
-        })
-      }
-    })
-    that.fetchReplies(id);
+            detail: respData,
+            hidden: true
+        });
+    });
   },
   fetchReplies: function(id) {
     var that = this;
-    wx.request({
-      url: Api.getReplies({
-        topic_id: id
-      }),
-      success: function(res) {
-        res.data.forEach(function(item) {
-          item.created = Util.formatTime(Util.transLocalTime(item.created));
-        })
+    apiutil.getRepliesByJokerId({id: id}).then(function(resp){
+        var replies = resp.data.data.list || [];
+        replies.forEach(function(item) {
+            item.createdAt = formatutil.formatTime(formatutil.transLocalTime(item.createdAt));
+            return item;
+        });
         that.setData({
-          replies: res.data
-        })
-        setTimeout(function() {
-          that.setData({
+            replies: replies,
             hidden: true
-          })
-        }, 300)
-      }
-    })
+        })
+    });
   },
   onLoad: function (options) {
-    this.setData({
-      hidden: false
-    });
-    let detail = require("../../datasource/topicinfo.js");
-    let replies = require("../../datasource/replies.js");
-    this.setData({
-      hidden: true,
-      detail: detail[0],
-      replies: replies
-    })
-    // this.fetchDetail(options.id);
+    this.fetchDetail(options.id);
+    this.fetchReplies(options.id);
+    return;
   }
 })

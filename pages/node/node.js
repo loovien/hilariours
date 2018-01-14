@@ -1,39 +1,33 @@
 // latest.js
-var Api = require('../../utils/api.js');
+var formatutil = require("../../utils/formatutil.js");
+var apiutil = require('../../utils/apiutil.js');
 
 Page({
   data: {
     cancel: true,
-    title: '全部节点',
+    title: '全部分类',
     nodes: [],
-    hidden: false
+    hidden: false,
+    value: ""
   },
   fetchData: function() {
     var that = this;
-    that.setData({
-      hidden: false
-    })
-    wx.request({
-      url: Api.getAllNode(),
-      success: function(res) {
-        console.log(res);
+    var value = that.data.value;
+    apiutil.getClassification({page: 1, size: 20, name: value}).then(function(resp){
+        var nodes = resp.data.data.list;
         that.setData({
-          nodes: res.data
-        })
-        setTimeout(function() {
-          that.setData({
-            hidden: true
-          })
-        }, 300)
-      }
-    })
+            hidden: true,
+            nodes: nodes
+        });
+    });
+  },
+  inputtxt: function(evt) {
+      var that = this;
+      var newValue = evt.detail.value;
+      that.data.value = newValue;
+      that.fetchData();
   },
   onLoad: function () {
-    // this.fetchData();
-    var nodes = require("../../datasource/all.js");
-    this.setData({
-      hidden: true,
-      nodes: nodes
-    })
+    this.fetchData();
   }
 })

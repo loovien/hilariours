@@ -2,24 +2,24 @@
 <view class="container">
   <view class="topic-detail">
     <view class="topic-owner">
-        <image class="owner-avatar" src="{{detail.member.avatar_normal}}" id="{{detail.member.id}}" bindtap="showUserInfo"></image>
+        <image class="owner-avatar" src="{{detail.member.avatar}}" id="{{detail.member.id}}" bindtap="showUserInfo"></image>
         <view class="topic-tit">{{detail.title}}</view>
     </view>
     <view class="topic-info">
-        <text>{{detail.member.username}}</text>
-        <text class="topic-created">{{detail.created}}</text>
+        <text>{{detail.member.nickname}}</text>
+        <text class="topic-created">{{detail.createdAt}}</text>
     </view>
     <view class="topic-desc">
         <text>{{detail.content}}</text>
     </view>
   </view>
   <view class="replies">
-    <block wx:for="{{replies}}">
+    <block wx:for="{{replies}}" wx:key="">
         <view class="replies-item" id="{{item.id}}">
             <view class="reply-owner">
-                <image class="reply-avatar" src="{{item.member.avatar_normal}}"></image>
-                <text class="reply-name">{{item.member.username}}</text>
-                <text class="reply-time">{{item.created}}</text>
+                <image class="reply-avatar" src="{{item.member.avatar}}"></image>
+                <text class="reply-name">{{item.member.nickname}}</text>
+                <text class="reply-time">{{item.createdAt}}</text>
             </view>
             <view class="reply-content">
                 {{item.content}}

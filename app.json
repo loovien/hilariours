@@ -5,20 +5,15 @@
     "pages/node/node",
     "pages/topicList/topicList",
     "pages/detail/detail",
-    "pages/user/usercenter",
-    "pages/user/carsh",
-    "pages/user/income",
-    "pages/user/outcome",
-    "pages/user/deploy",
-    "pages/user/replies",
-    "pages/user/feedback"
+    "pages/user/usercenter"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "人人段子手",
     "navigationBarTextStyle":"black",
-    "enablePullDownRefresh":"true"
+    "enablePullDownRefresh":"true",
+    "onReachBottomDistance": "-100rpx"
   },
   "tabBar": {
     "color":"#000",

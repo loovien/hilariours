@@ -31,6 +31,7 @@
 }
 
 .topic-info {
+    padding-left: 36rpx;
     margin-bottom: 40rpx;
     color:#777;
 }

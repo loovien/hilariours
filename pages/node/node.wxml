@@ -3,7 +3,7 @@
 <view class="search">
     <view class="form">
       <view>
-        <input type="text" maxlength="20" name="name" bindinput="inputext" placeholder="搜索热点" value="{{value}}" />
+        <input type="text" maxlength="20" name="name" bindblur="inputtxt" placeholder="搜索热点" value="{{value}}" />
       </view>
       <view class="button" hidden="{{cancel}}">
         <button form-type="submit" plain="true">

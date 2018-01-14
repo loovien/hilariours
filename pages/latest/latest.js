@@ -1,53 +1,54 @@
 // latest.js
-var Api = require('../../utils/api.js');
+var formatutil = require("../../utils/formatutil.js");
+var apiutil = require('../../utils/apiutil.js');
 
 Page({
-  data: {
-    title: '最新话题',
-    latest: [],
-    hidden: false
-  },
-  onPullDownRefresh: function () {
-    this.fetchData();
-    console.log('onPullDownRefresh', new Date())
-  },
-  // 事件处理函数
-  redictDetail: function(e) {
-    var id = e.currentTarget.id,
-      url = '../detail/detail?id=' + id;
-      
-    wx.navigateTo({
-      url: url
-    })
-  },
-  fetchData: function() {
-    var that = this;
-    that.setData({
-      hidden: false
-    })
-    wx.request({
-      url: Api.getLatestTopic({
-        p: 1
-      }),
-      success: function(res) {
-        console.log(res);
-        that.setData({
-          latest: res.data
+    data: {
+        query: {
+            page: 1,
+            size: 10
+        },
+        title: '最新段子',
+        latest: [],
+        hidden: false
+    },
+    onPullDownRefresh: function () {
+        console.log('onPullDownRefresh', new Date())
+        this.fetchData({page: 1, size: 10}, true);
+    },
+    // 事件处理函数
+    redictDetail: function(e) {
+        var id = e.currentTarget.id,
+        url = '../detail/detail?id=' + id;
+        wx.navigateTo({
+            url: url
         })
-        setTimeout(function() {
-          that.setData({
-            hidden: true
-          })
-        }, 300)
-      }
-    })
-  },
-  onLoad: function () {
-    // this.fetchData();
-    let latest = require("../../datasource/latest.js");
-    this.setData({
-      hidden: true,
-      latest: latest
-    })
-  }
+    },
+    fetchData: function(query, pullDownRefresh) {
+        var that = this;
+        apiutil.getLatests(query).then(function(resp) {
+            var respData = resp.data.data;
+            var latest = respData.list;
+            latest.forEach(function(item) {
+                item.createdAt = formatutil.formatTime(formatutil.transLocalTime(item.createdAt));
+            });
+            var currentData = that.data.latest;
+            if (!pullDownRefresh) { // 不是下拉刷新, 添加数据
+                latest = currentData.concat(latest);
+            }
+            that.setData({
+                hidden: true,
+                latest: latest
+            })
+        });
+    },
+    loadMore: function() {
+        var that = this
+        that.data.query.page += 1;
+        console.info("当前页:", that.data.query);
+        that.fetchData(that.data.query);
+    },
+    onLoad: function () {
+        this.fetchData({});
+    }
 })

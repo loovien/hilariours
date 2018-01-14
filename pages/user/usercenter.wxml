@@ -7,9 +7,10 @@
   <view class="node-list">
     <block wx:for="{{menu}}" wx:key="">
       <view class="node-item">
-        <navigator url="{{item.url}}" hover-class="navigator-hover">
+          <text class="node-title" bindtap="develop">{{item.title}}</text>
+        <!-- <navigator url="{{item.url}}" hover-class="navigator-hover">
           <text class="node-title">{{item.title}}</text>
-        </navigator>
+        </navigator> -->
       </view>
     </block>
   </view>

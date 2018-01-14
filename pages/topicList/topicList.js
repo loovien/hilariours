@@ -1,48 +1,56 @@
 // topicList.js
-var Api = require('../../utils/api.js');
+var formatutil = require("../../utils/formatutil.js");
+var apiutil = require('../../utils/apiutil.js');
 
 Page({
-  data: {
-    title: '话题列表',
-    topics: [],
-    hidden: false
-  },
-  // 事件处理函数
-  redictDetail: function(e) {
-    var id = e.currentTarget.id,
-      url = '../detail/detail?id=' + id;
-      
-    wx.navigateTo({
-      url: url
-    })
-  },
-  fetchData: function(id) {
-    var that = this;
-    that.setData({
-      hidden: false
-    })
-    wx.request({
-      url: Api.getTopicInfo({
-        node_id: id
-      }),
-      success: function(res) {
-        that.setData({
-          topics: res.data
+    data: {
+        query: {
+            page: 1, 
+            size: 10,
+            classId: 0
+        },
+        title: '段子分类列表',
+        topics: [],
+        hidden: false,
+        more: true
+    },
+    // 事件处理函数
+    redictDetail: function(e) {
+        var id = e.currentTarget.id,
+        url = '../detail/detail?id=' + id;
+        wx.navigateTo({
+            url: url
         })
-        setTimeout(function() {
-          that.setData({
-            hidden: true
-          })
-        }, 300)
-      }
-    })
-  },
-  onLoad: function (options) {
-    // this.fetchData(options.id);
-    let topics = require("../../datasource/topicinfo.js");
-    this.setData({
-      hidden: true,
-      topics: topics
-    })
-  }
+    },
+    fetchData: function(id) {
+        var that = this;
+        var query = that.data.query;
+        query.classId = id;
+        apiutil.getJokersByClassId(query).then(function(resp){
+            var respData = resp.data.data;
+            var jokerList = respData.list || [];
+            if (Math.ceil(respData.cnt / respData.size) == query.page) {
+                that.more = false;
+            }
+            jokerList.forEach(function(item) {
+                item.createdAt = formatutil.formatTime(formatutil.transLocalTime(item.createdAt));
+                return item;
+            });
+            that.setData({
+                hidden: true,
+                topics: jokerList,
+            });
+        });
+    },
+    loadMore: function() {
+        var that = this;
+        if (!that.more) {
+            return;
+        }
+        that.query.page += 1;
+        that.fetchData();
+    },
+    onLoad: function (options) {
+        this.fetchData(options.id);
+    }
 })
